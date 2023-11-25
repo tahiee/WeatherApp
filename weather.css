@@ -93,3 +93,16 @@ body {
     font-size: 28px;
     /* margin-top: 20px; */
 }
+
+@media only screen and (max-width: 470px) {
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.search input{
+    overflow: hidden;
+}    
+}
+
