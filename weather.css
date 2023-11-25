@@ -89,20 +89,38 @@ body {
     width: 40px;
     margin-right: 10px;
 }
-.humidity, .wind{
+
+.humidity,
+.wind {
     font-size: 28px;
     /* margin-top: 20px; */
 }
 
 @media only screen and (max-width: 470px) {
-.search{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-.search input{
-    overflow: hidden;
-}    
+    .search {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .search input {
+        overflow: hidden;
+    }
 }
 
+@media only screen and (max-width: 425px) {
+    .details {
+        margin-top: 35px;
+        padding: 0 1px;
+    }
+
+    .details col {
+        font-size: 18px;
+    }
+
+    .details img {
+        width: 35px;
+    }
+
+}
