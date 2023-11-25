@@ -124,3 +124,21 @@ body {
     }
 
 }
+@media only screen and (max-width: 380px) {
+    .details {
+        margin-top: 30px;
+        padding: 0 1px;
+    }
+
+    .details col {
+        font-weight: 100;
+    }
+
+    .details img {
+        width: 26px;
+    }
+.humidity,.wind{
+        font-size: 17px;
+
+}
+}
